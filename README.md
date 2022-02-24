@@ -21,18 +21,22 @@
 ```
 http://www.kuaishibie.cn 处注册账号，用这个平台的原因是因为注册方便。
 在http头部填入以下格式
-xiapao:账号,密码,验证码url,验证码类型
+xiapao:验证码url,验证码类型
 验证码类型：纯数字=1，纯英文=2，数字英文混合=3
 如：
 xiapao:test,123456,http://www.xxx.coom/get-validate-code,3
+
+账号密码，通过修改python文件中的username和password参数进行修改。避免原本header头修改导致账号密码泄漏。
 ```
 *****
+
+![python文件写入配置](https://image.v0w.top/2022/02/16456680715233.jpg)
 
 ![file](http://www.nmd5.com/wp-content/uploads/2021/01/600ee04b44979.png?time=111)
 
 *****
 
-![file](http://www.nmd5.com/wp-content/uploads/2021/01/600efb371b7b7.png)
+![](https://image.v0w.top/2022/02/16456679807293.jpg)
 
 * 导入字典
 
